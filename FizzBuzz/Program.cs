@@ -1,0 +1,18 @@
+﻿using FizzBuzz.OOP;
+using FizzBuzz.FunctionalStyle;
+using FizzBuzz.StructuralStyle;
+
+namespace FizzBuzz
+{
+    internal static class Program
+    {
+        private static void Main(string[] args)
+        {
+            var fizzBuzzOop = new FizzBuzzOOP();
+            var fizzBuzzFunctional = new FizzBuzzFunctional();
+            var fizzBuzzStructural = new FizzBuzzStructural();
+
+            fizzBuzzOop.Start();
+        }
+    }
+}
