@@ -1,4 +1,7 @@
-﻿namespace FizzBuzz.OOP
+﻿using System;
+using System.Threading;
+
+namespace FizzBuzz.OOP
 {
     /// <summary>
     /// Контейнер наименования тега
@@ -19,6 +22,9 @@
             _value = value;
         }
 
+        public static Lazy<Tag> CreateInstance<T>(T num)
+            => new Lazy<Tag>(() => new Tag($"{num}") , LazyThreadSafetyMode.None);
+        
         public override string ToString() => _value;
     }
 }

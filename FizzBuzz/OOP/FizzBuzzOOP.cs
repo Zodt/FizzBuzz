@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using FizzBuzz.Helper;
 using FizzBuzz.OOP.Conditions;
 
@@ -18,11 +19,11 @@ namespace FizzBuzz.OOP
         /// <summary>
         /// Связка условий с результатом
         /// </summary>
-        private static readonly TagNumRulesCollection Collection = new TagNumRulesCollection(new List<TagNumRule>
+        private static readonly TagRulesCollection Collection = new TagRulesCollection(new List<TagRule>
         {
-            new TagNumRule(GetTag(nameof(FizzBuzzConditions)), new FizzBuzzStrategy(FizzBuzzConditions)),
-            new TagNumRule(GetTag(nameof(FizzConditions)), new FizzBuzzStrategy(FizzConditions)),
-            new TagNumRule(GetTag(nameof(BuzzConditions)), new FizzBuzzStrategy(BuzzConditions))
+            new TagRule(GetTag(nameof(FizzBuzzConditions)), new FizzBuzzStrategy(FizzBuzzConditions)),
+            new TagRule(GetTag(nameof(FizzConditions)), new FizzBuzzStrategy(FizzConditions)),
+            new TagRule(GetTag(nameof(BuzzConditions)), new FizzBuzzStrategy(BuzzConditions))
         });
 
         /// <summary>
@@ -30,9 +31,9 @@ namespace FizzBuzz.OOP
         /// </summary>
         public void Start()
         {
-            for (int i = 0; i < Settings.MaxNum; i++)
+            for (int i = default; i < Settings.MaxNum; i++)
             {
-                new Printer(Collection.Find(i, new TagNumRule(new Tag(i.ToString())))).Print();
+                Console.WriteLine(Collection.Find(i));
             }
         }
 
@@ -43,7 +44,7 @@ namespace FizzBuzz.OOP
         /// <returns>Тег</returns>
         private static Tag GetTag(string conditionsName)
         {
-            return new Tag(conditionsName.Replace("Conditions",""));
+            return Tag.CreateInstance(conditionsName.Replace("Conditions","")).Value;
         }
     }
 }

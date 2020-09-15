@@ -29,10 +29,9 @@
           </e>
           <e p="FizzBuzzOOP.cs" t="Include" />
           <e p="FizzBuzzStrategy.cs" t="Include" />
-          <e p="Printer.cs" t="Include" />
           <e p="Tag.cs" t="Include" />
-          <e p="TagNumRule.cs" t="Include" />
-          <e p="TagNumRulesCollection.cs" t="Include" />
+          <e p="TagRule.cs" t="Include" />
+          <e p="TagRulesCollection.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="StructuralStyle" t="Include">

@@ -3,7 +3,7 @@
     /// <summary>
     /// Контейнер связки условий с тегом
     /// </summary>
-    public class TagNumRule
+    public class TagRule
     {
         /// <summary>
         /// Условия
@@ -15,20 +15,11 @@
         private readonly Tag _tag;
 
         /// <summary>
-        /// Проставление значения тега по умолчанию
-        /// </summary>
-        /// <param name="tag">Значения тега по умолчанию</param>
-        public TagNumRule(Tag tag)
-        {
-            _tag = tag;
-        }
-        
-        /// <summary>
         /// Связка значения тега с условиями
         /// </summary>
         /// <param name="tag">Обрабатываемый тег</param>
         /// <param name="strategy">Условия</param>
-        public TagNumRule(Tag tag, FizzBuzzStrategy strategy)
+        public TagRule(Tag tag, FizzBuzzStrategy strategy)
         {
             _strategy = strategy;
             _tag = tag;
@@ -44,13 +35,6 @@
             return _strategy.IsConditionMet(num);
         }
 
-        /// <summary>
-        /// Получение тега
-        /// </summary>
-        /// <returns></returns>
-        public Tag GetTag()
-        {
-            return _tag;
-        }
+        public static implicit operator Tag(TagRule x) => x._tag;
     }
 }

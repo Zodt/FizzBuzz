@@ -6,18 +6,18 @@ namespace FizzBuzz.OOP
     /// <summary>
     /// Коллекция контейнеров связки тегов с условиями
     /// </summary>
-    public class TagNumRulesCollection
+    public class TagRulesCollection
     {
         /// <summary>
         /// Коллекция контейнеров связки тегов с условиями
         /// </summary>
-        private readonly List<TagNumRule> _tags;
+        private readonly List<TagRule> _tags;
 
         /// <summary>
         /// Проставление коллекции контейнеров связки тегов с условиями
         /// </summary>
-        /// <param name="tags"></param>
-        public TagNumRulesCollection(List<TagNumRule> tags)
+        /// <param name="tags">Коллекция контейнеров связки тегов с условиями</param>
+        public TagRulesCollection(List<TagRule> tags)
         {
             _tags = tags;
         }
@@ -26,13 +26,11 @@ namespace FizzBuzz.OOP
         /// Поиск контейнеров, условия которого выполнились 
         /// </summary>
         /// <param name="num">Проверяемое число</param>
-        /// <param name="defaultValue">Значение по умолчанию, на случай ненахждения выполненных условий</param>
-        /// <returns></returns>
-        public TagNumRule Find(int num, TagNumRule defaultValue)
+        public Tag Find(int num)
         {
             foreach (var tag in _tags.Where(tag => tag.IsSuccess(num)))
                 return tag;
-            return defaultValue;
+            return Tag.CreateInstance(num).Value;
         }
     }
 }
