@@ -28,7 +28,7 @@ namespace FizzBuzz.OOP
         /// <param name="num">Проверяемое число</param>
         public Tag Find(int num)
         {
-            foreach (var tag in _tags.Where(tag => tag.IsSuccess(num)))
+            foreach (var tag in _tags.Where(tag => tag.IsSuccess(num)).ToList())
                 return tag;
             return Tag.CreateInstance(num).Value;
         }

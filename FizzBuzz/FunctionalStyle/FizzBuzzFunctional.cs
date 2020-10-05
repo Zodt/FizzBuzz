@@ -1,5 +1,6 @@
 ﻿#nullable enable
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using FizzBuzz.Helper;
 
@@ -9,20 +10,45 @@ namespace FizzBuzz.FunctionalStyle
     {
         public void Start()
         {
-            //Постановка основных условий и добавляемого условия
-            Func<int, string, Func<int, string?>> conditions = (n, w) => num => num != default ? num % n == default ? w : null : null;
-            
-            //Связка условий с результатом
-            Func<int, string?> fizz = conditions(3, "Fizz");
-            Func<int, string?> buzz = conditions(5, "Buzz");
+            #region Условия
+
+            Func<int, int, bool> zeroCondition = (index, number) => index != default;
+            Func<int, int, bool> devCondition = (index, number) => index % number == default;
+            Func<int, int, bool> sqrtCondition = (index, number) => Math.Sqrt(index) - (int)Math.Sqrt(index) == default;
+            List<Func<int,int,bool>> conditions = new List<Func<int, int, bool>>{ zeroCondition, devCondition };
+
+            #endregion
+
+            #region Постановка основных условий и добавляемого условия
+
+            Func<int, string, List<Func<int, int, bool>>, Func<int, string?>> executeConditions = 
+                (number, word, conditionsList) => 
+                    index => conditionsList.All(x=> x(index, number)) ? word : null;
+
+            #endregion
+
+            #region Связка условий с результатом
+
+            // Связка условий с результатом
+            Func<int, string?> fizz = executeConditions(3, "Fizz", conditions);
+            Func<int, string?> buzz = executeConditions(5, "Buzz", conditions);
+            Func<int, string?> sqrt = executeConditions(default, "Sqrt", new List<Func<int, int, bool>>{ zeroCondition, sqrtCondition });
 
             // Особенности языка. Если вернуть конкатенацию 2х пустых "string?", то будет возвращена пустая строка
-            Func<string, string?> checkResult = s => s?.Equals(string.Empty) ?? true ? null : s; 
+            Func<string?, string?> checkResult = s => s?.Equals(string.Empty) ?? true ? null : s;
+
+            // Результирующая функция 
+            Func<int, string?> result = index => checkResult(fizz(index) + buzz(index) + sqrt(index));
+
+            #endregion
             
-            //Проверка выполнения условий и вывод
+            #region Выполнение условий и вывод
+
             Enumerable
-                .Range(default,Settings.MaxNum)
-                .Select(i => Console.WriteLine(checkResult(fizz(i) + buzz(i)) ?? i.ToString()));
+                .Range(default, Settings.MaxNum)
+                .Select(index => Console.WriteLine(result(index) ?? index.ToString()));
+
+            #endregion
         }
     }
 }

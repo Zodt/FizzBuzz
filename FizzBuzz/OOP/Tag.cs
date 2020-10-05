@@ -23,7 +23,7 @@ namespace FizzBuzz.OOP
         }
 
         public static Lazy<Tag> CreateInstance<T>(T num)
-            => new Lazy<Tag>(() => new Tag($"{num}") , LazyThreadSafetyMode.None);
+            => new Lazy<Tag>(() => new Tag($"{num}") , LazyThreadSafetyMode.PublicationOnly);
         
         public override string ToString() => _value;
     }
