@@ -1,23 +1,36 @@
-﻿using System;
+﻿#nullable enable
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace FizzBuzz.FunctionalStyle
 {
     /// <summary>
-    /// Класс расширений для FizzBuzzOOP
+    /// Класс расширений для FizzBuzzFunctional
     /// </summary>
     internal static class FunctionalExtension
     {
-        /// <summary>
-        /// Перебор массива данных не возвращающий значения
-        /// </summary>
-        /// <param name="data">Массив данных</param>
-        /// <param name="action">Обработчик данных</param>
-        /// <typeparam name="T">Тип обрабатываемого массива данных</typeparam>
-        public static void Select<T>(this IEnumerable<T> data, Action<T> action)
+        public static void WriteLines<T, TU>(this IEnumerable<T> data, Func<T, TU> action)
         {
-            foreach (var value in data) 
-                action(value);
+            Debug.Assert(data != null, nameof(data) + " != null");
+            List<T>? values = data.ToList();
+            foreach (var value in values)
+            {
+                Debug.Assert(value != null, nameof(value) + " != null");
+                var invoke = action.Invoke(value);
+                Console.WriteLine(invoke);
+            }
         }
+
+        
+        public static string? NullIfEmpty(this string? s)
+        {
+            return s?.Equals(string.Empty) ?? true ? null : s!;
+        }
+            
+            
+        
     }
 }
