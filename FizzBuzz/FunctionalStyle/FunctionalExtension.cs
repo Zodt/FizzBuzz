@@ -3,12 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Linq.Expressions;
 
 namespace FizzBuzz.FunctionalStyle
 {
     /// <summary>
-    /// Класс расширений для FizzBuzzFunctional
+    ///     Класс расширений для FizzBuzzFunctional
     /// </summary>
     internal static class FunctionalExtension
     {
@@ -24,13 +23,10 @@ namespace FizzBuzz.FunctionalStyle
             }
         }
 
-        
+
         public static string? NullIfEmpty(this string? s)
         {
             return s?.Equals(string.Empty) ?? true ? null : s!;
         }
-            
-            
-        
     }
 }

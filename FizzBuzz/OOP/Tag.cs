@@ -1,30 +1,17 @@
-﻿using System;
-using System.Threading;
-
-namespace FizzBuzz.OOP
+﻿namespace FizzBuzz.OOP
 {
     /// <summary>
-    /// Контейнер наименования тега
+    ///     Контейнер наименования тега
     /// </summary>
-    public class Tag
+    public record Tag(string Value)
     {
-        /// <summary>
-        /// Наименование тега
-        /// </summary>
-        private readonly string _value;
+        public static Tag CreateInstance(int num) => new($"{num}");
+        public static Tag CreateInstance(string num) => new($"{num}");
 
-        /// <summary>
-        /// Проставление наименования тега
-        /// </summary>
-        /// <param name="value">Получаемое наименование тега</param>
-        public Tag(string value)
+        public override string ToString()
         {
-            _value = value;
+            return Value;
         }
-
-        public static Lazy<Tag> CreateInstance<T>(T num)
-            => new Lazy<Tag>(() => new Tag($"{num}") , LazyThreadSafetyMode.PublicationOnly);
-        
-        public override string ToString() => _value;
     }
+
 }

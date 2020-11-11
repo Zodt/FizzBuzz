@@ -12,10 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2eb7db-e598-47f4-b10a-bf73594a09f9" name="Default Changelist" comment="Added condition to functional style">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/DivCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/DivCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/NotZeroCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/NotZeroCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +50,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9481D310-60CF-4AB5-BB18-EE2195E361A5/30/Where.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FizzBuzz/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,14 +67,14 @@
         <option value="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" />
         <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagNumRulesCollection.cs" />
         <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagNumRule.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" />
         <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" />
+        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" />
+        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" />
+        <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" />
+        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" />
+        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" />
         <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" />
         <option value="$PROJECT_DIR$/FizzBuzz/Program.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +87,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34997344" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30005312" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -84,9 +97,9 @@
   </component>
   <component name="RunManager">
     <configuration name="FizzBuzz" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/FizzBuzz/bin/Debug/netcoreapp5.0/FizzBuzz.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FizzBuzz/bin/Debug/netcoreapp5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -96,7 +109,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v5.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -114,7 +127,12 @@
       <workItem from="1600094134184" duration="9307000" />
       <workItem from="1600115290804" duration="8498000" />
       <workItem from="1601911482063" duration="15606000" />
-      <workItem from="1602418221716" duration="431000" />
+      <workItem from="1602418221716" duration="3111000" />
+      <workItem from="1602689580217" duration="2053000" />
+      <workItem from="1602691785310" duration="355000" />
+      <workItem from="1603201224748" duration="2341000" />
+      <workItem from="1603204148983" duration="518000" />
+      <workItem from="1605102782659" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="git remote add origin https://github.com/Zodt/FizzBuzz.git&#10;git branch -M master&#10;git push -u origin master">
       <created>1600101169386</created>
@@ -144,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601913936986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added condition to functional style">
+      <created>1602418969509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602418969509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -170,10 +195,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added condition to functional style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1600116382209">
+    <state x="1374" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605102801673">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600116382209" />
+    <state x="1374" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605102801673" />
+    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1603204554974">
+      <screen x="0" y="30" width="3840" height="1050" />
+    </state>
+    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204554974" />
     <state x="1030" y="68" width="2090" height="882" key="CommitChangelistDialog2" timestamp="1600101475530">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
@@ -186,86 +215,106 @@
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state x="531" y="71" key="DiffContextDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600101474020" />
-    <state width="3797" height="287" key="GridCell.Tab.0.bottom" timestamp="1602418661160">
+    <state width="3797" height="287" key="GridCell.Tab.0.bottom" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418661160" />
-    <state width="3797" height="287" key="GridCell.Tab.0.center" timestamp="1602418661160">
+    <state width="3797" height="287" key="GridCell.Tab.0.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.0.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.0.center" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418661160" />
-    <state width="3797" height="287" key="GridCell.Tab.0.left" timestamp="1602418661160">
+    <state width="3797" height="287" key="GridCell.Tab.0.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.0.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670733" />
+    <state width="3797" height="287" key="GridCell.Tab.0.left" timestamp="1605103155832">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418661160" />
-    <state width="3797" height="287" key="GridCell.Tab.0.right" timestamp="1602418661160">
+    <state width="3797" height="287" key="GridCell.Tab.0.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155832" />
+    <state width="3797" height="287" key="GridCell.Tab.0.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670733" />
+    <state width="3797" height="287" key="GridCell.Tab.0.right" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418661160" />
-    <state width="3797" height="287" key="GridCell.Tab.1.bottom" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.0.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.0.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.1.bottom" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.1.center" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.1.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.1.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.1.center" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.1.left" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.1.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.1.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.1.left" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.1.right" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.1.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.1.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.1.right" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.2.bottom" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.1.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.1.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.2.bottom" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.2.center" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.2.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.2.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.2.center" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.2.left" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.2.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.2.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.2.left" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.2.right" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.2.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.2.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.2.right" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.3.bottom" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.2.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.2.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.3.bottom" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.3.center" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.3.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.3.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
+    <state width="3797" height="287" key="GridCell.Tab.3.center" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.3.left" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.3.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.3.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
+    <state width="3797" height="287" key="GridCell.Tab.3.left" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.3.right" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.3.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.3.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
+    <state width="3797" height="287" key="GridCell.Tab.3.right" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.4.bottom" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.3.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.3.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
+    <state width="3797" height="287" key="GridCell.Tab.4.bottom" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.4.center" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.4.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.4.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670736" />
+    <state width="3797" height="287" key="GridCell.Tab.4.center" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.4.left" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.4.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.4.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
+    <state width="3797" height="287" key="GridCell.Tab.4.left" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
-    <state width="3797" height="287" key="GridCell.Tab.4.right" timestamp="1602003712907">
+    <state width="3797" height="287" key="GridCell.Tab.4.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.4.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
+    <state width="3797" height="287" key="GridCell.Tab.4.right" timestamp="1605103155833">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602003712907" />
+    <state width="3797" height="287" key="GridCell.Tab.4.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
+    <state width="3797" height="287" key="GridCell.Tab.4.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670736" />
     <state x="1754" y="271" key="RiderGenerateDialog" timestamp="1600083719273">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
@@ -274,14 +323,14 @@
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state x="1421" y="200" key="SettingsEditor/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418435531" />
-    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog" timestamp="1600119711987">
+    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog" timestamp="1602690415907">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600119711987" />
-    <state x="1512" y="288" key="Vcs.Push.Dialog.v2" timestamp="1601913966509">
+    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602690415907" />
+    <state x="1512" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602418978969">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state x="1512" y="288" key="Vcs.Push.Dialog.v2/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1601913966509" />
+    <state x="1512" y="288" key="Vcs.Push.Dialog.v2/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418978969" />
     <state x="1737" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600101360601">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>

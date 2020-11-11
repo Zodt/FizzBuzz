@@ -6,13 +6,13 @@ namespace FizzBuzz
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var fizzBuzzOop = new FizzBuzzOOP();
             var fizzBuzzFunctional = new FizzBuzzFunctional();
             var fizzBuzzStructural = new FizzBuzzStructural();
 
-            fizzBuzzFunctional.Start();
+            fizzBuzzOop.Start();
         }
     }
 }

@@ -4,18 +4,13 @@ using System.Collections.Generic;
 
 namespace FizzBuzz.OOP
 {
-    public class FizzBuzzStrategy : ICondition
+    public record FizzBuzzStrategy(List<ICondition> ConditionsOrStrategies) : ICondition
     {
-        private readonly List<ICondition> _conditionsOrStrategies;
-
-        public FizzBuzzStrategy(List<ICondition> conditionsOrStrategies)
-        {
-            _conditionsOrStrategies = conditionsOrStrategies;
-        }
-
         public bool IsConditionMet(int num)
         {
-            return _conditionsOrStrategies.All(t => t.IsConditionMet(num));
+            return ConditionsOrStrategies
+                .All(t => t.IsConditionMet(num));
         }
     }
+
 }

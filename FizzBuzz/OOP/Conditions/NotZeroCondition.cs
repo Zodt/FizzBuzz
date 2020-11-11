@@ -1,7 +1,7 @@
 ﻿namespace FizzBuzz.OOP.Conditions
 {
     /// <summary>
-    /// Условие несоответствия проверяемого числа значению по умолчанию
+    ///     Условие несоответствия проверяемого числа значению по умолчанию
     /// </summary>
     public class NotZeroCondition : ICondition
     {

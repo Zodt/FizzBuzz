@@ -3,7 +3,7 @@
     public interface ICondition
     {
         /// <summary>
-        /// Проверка выполнения условий
+        ///     Проверка выполнения условий
         /// </summary>
         /// <param name="num">Проверяемое число</param>
         /// <returns>Результат проверки</returns>

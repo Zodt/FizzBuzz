@@ -1,6 +1,4 @@
-﻿#nullable enable
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using FizzBuzz.Helper;
 
@@ -30,9 +28,9 @@ namespace FizzBuzz.FunctionalStyle
                     index => conditions?.All(
                         x => x(index, number)) ?? false ? word : null;
 
-            Func<int, string?>[]? conditionsWithData = 
+            Func<int, string?>[]? conditionsWithData =
             {
-                linkDataWithCondition(3, "Fizz", fizzBuzzConditions), 
+                linkDataWithCondition(3, "Fizz", fizzBuzzConditions),
                 linkDataWithCondition(5, "Buzz", fizzBuzzConditions), 
                 //linkDataWithCondition(default, "Sqrt", sqrtConditions),
                 //linkDataWithCondition(default, "Part", parityConditions),
@@ -46,7 +44,7 @@ namespace FizzBuzz.FunctionalStyle
                 .Select(x => x(index))
                 .Aggregate(string.Concat)
                 .NullIfEmpty();
-            
+
             Enumerable
                 .Range(default, Settings.MaxNum)
                 .WriteLines(index => executeConditions(index) ?? index.ToString());
@@ -55,7 +53,3 @@ namespace FizzBuzz.FunctionalStyle
         }
     }
 }
-
-
-
-
