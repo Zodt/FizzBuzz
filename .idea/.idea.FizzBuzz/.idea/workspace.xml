@@ -12,18 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2eb7db-e598-47f4-b10a-bf73594a09f9" name="Default Changelist" comment="Added condition to functional style">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FizzBuzz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FizzBuzz/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FizzBuzz/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/DivCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/DivCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/NotZeroCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/NotZeroCondition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" afterDir="false" />
@@ -44,39 +42,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/8F/Lazy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/AD9D8258-7A37-41E9-95FD-6C73B70A4EC3/24/10e2c115/0200000Dpdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/8F/Lazy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9481D310-60CF-4AB5-BB18-EE2195E361A5/30/Where.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FizzBuzz/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/FizzBuzz/TagName.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/Tag.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/ICondition.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/Settings.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/StartOopFizzBuzz.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctionalStyle.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/DivCondition.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/NotZeroCondition.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Conditions/ICondition.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagNumRulesCollection.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagNumRule.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRule.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FunctionalExtension.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" />
-        <option value="$PROJECT_DIR$/FizzBuzz/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/FizzBuzz/OOP/Tag.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzOOP.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/OOP/TagRulesCollection.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/OOP/FizzBuzzStrategy.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/StructuralStyle/FizzBuzzStructural.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/Program.cs" />
+      <option value="$PROJECT_DIR$/FizzBuzz/FunctionalStyle/FizzBuzzFunctional.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1hV1b12x9vXDoW7LS6YsioKwb0w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -93,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="FizzBuzz" type="DotNetProject" factoryName=".NET Project">
@@ -133,6 +116,9 @@
       <workItem from="1603201224748" duration="2341000" />
       <workItem from="1603204148983" duration="518000" />
       <workItem from="1605102782659" duration="370000" />
+      <workItem from="1605394642323" duration="792000" />
+      <workItem from="1605395469635" duration="167000" />
+      <workItem from="1605627208583" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="git remote add origin https://github.com/Zodt/FizzBuzz.git&#10;git branch -M master&#10;git push -u origin master">
       <created>1600101169386</created>
@@ -193,156 +179,6 @@
     <MESSAGE value="Error correction" />
     <MESSAGE value="Added condition to functional style" />
     <option name="LAST_COMMIT_MESSAGE" value="Added condition to functional style" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1374" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605102801673">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1374" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605102801673" />
-    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1603204554974">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1667" y="400" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204554974" />
-    <state x="1030" y="68" width="2090" height="882" key="CommitChangelistDialog2" timestamp="1600101475530">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1030" y="68" width="2090" height="882" key="CommitChangelistDialog2/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600101475530" />
-    <state width="498" height="464" key="DebuggerActiveHint" timestamp="1600116351852">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="498" height="464" key="DebuggerActiveHint/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600116351852" />
-    <state x="531" y="71" key="DiffContextDialog" timestamp="1600101474020">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="531" y="71" key="DiffContextDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600101474020" />
-    <state width="3797" height="287" key="GridCell.Tab.0.bottom" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.0.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.0.center" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.0.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670733" />
-    <state width="3797" height="287" key="GridCell.Tab.0.left" timestamp="1605103155832">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155832" />
-    <state width="3797" height="287" key="GridCell.Tab.0.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670733" />
-    <state width="3797" height="287" key="GridCell.Tab.0.right" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.0.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.0.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.1.bottom" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.1.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.1.center" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.1.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.1.left" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.1.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.1.right" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.1.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.1.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.2.bottom" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.2.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.2.center" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.2.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.2.left" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.2.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.2.right" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.2.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.2.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.3.bottom" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.3.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
-    <state width="3797" height="287" key="GridCell.Tab.3.center" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.3.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
-    <state width="3797" height="287" key="GridCell.Tab.3.left" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.3.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670734" />
-    <state width="3797" height="287" key="GridCell.Tab.3.right" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.3.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.3.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
-    <state width="3797" height="287" key="GridCell.Tab.4.bottom" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.bottom/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.4.bottom/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670736" />
-    <state width="3797" height="287" key="GridCell.Tab.4.center" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.center/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.4.center/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
-    <state width="3797" height="287" key="GridCell.Tab.4.left" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.left/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.4.left/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670735" />
-    <state width="3797" height="287" key="GridCell.Tab.4.right" timestamp="1605103155833">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="3797" height="287" key="GridCell.Tab.4.right/-1920.30.1920.1050/0.30.3840.1050@0.30.3840.1050" timestamp="1605103155833" />
-    <state width="3797" height="287" key="GridCell.Tab.4.right/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1603204670736" />
-    <state x="1754" y="271" key="RiderGenerateDialog" timestamp="1600083719273">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1754" y="271" key="RiderGenerateDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600083719273" />
-    <state x="1421" y="200" key="SettingsEditor" timestamp="1602418435531">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1421" y="200" key="SettingsEditor/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418435531" />
-    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog" timestamp="1602690415907">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="92" y="122" width="3656" height="866" key="VCS.FileHistoryDialog/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602690415907" />
-    <state x="1512" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602418978969">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1512" y="288" key="Vcs.Push.Dialog.v2/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1602418978969" />
-    <state x="1737" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600101360601">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1737" y="469" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1600101360601" />
-    <state x="1576" y="258" key="run.anything.popup" timestamp="1601911851577">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1576" y="258" key="run.anything.popup/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1601911851577" />
-    <state x="1583" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601927778872">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="1583" y="257" width="672" height="678" key="search.everywhere.popup/0.30.3840.1050/-1920.30.1920.1050@0.30.3840.1050" timestamp="1601927778872" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

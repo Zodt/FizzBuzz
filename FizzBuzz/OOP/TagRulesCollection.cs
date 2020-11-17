@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
+using System.Collections.Generic;
 
 namespace FizzBuzz.OOP
 {
     /// <summary>
     ///     Коллекция контейнеров связки тегов с условиями
     /// </summary>
-    public record TagRulesCollection(List<TagRule> Tags)
+    public sealed record TagRulesCollection(List<TagRule> Tags)
     {
         /// <summary>
         ///     Поиск контейнеров, условия которого выполнились
@@ -18,6 +18,17 @@ namespace FizzBuzz.OOP
                 return tag;
             return Tag.CreateInstance(num);
         }
+
+        public override string ToString() => string.Concat
+        (
+            nameof(TagRulesCollection),
+            @" { ",
+                Tags
+                    .Select(x => x.ToString())
+                    .Aggregate((x, y) => $"{x}, {y}"),
+            "}\n"
+        );
+
     }
 
 }

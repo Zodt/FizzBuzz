@@ -3,7 +3,7 @@
     /// <summary>
     ///     Контейнер наименования тега
     /// </summary>
-    public record Tag(string Value)
+    public sealed record Tag(string Value)
     {
         public static Tag CreateInstance(int num) => new($"{num}");
         public static Tag CreateInstance(string num) => new($"{num}");

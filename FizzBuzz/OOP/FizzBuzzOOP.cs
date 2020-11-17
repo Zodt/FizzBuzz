@@ -48,6 +48,8 @@ namespace FizzBuzz.OOP
         /// </summary>
         public void Start()
         {
+            Console.WriteLine(Collection);
+
             for (int i = default; i < Settings.MaxNum; i++) 
                 Console.WriteLine(Collection.Find(i));
         }

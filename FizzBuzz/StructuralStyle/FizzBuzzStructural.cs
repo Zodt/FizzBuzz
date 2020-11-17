@@ -7,6 +7,12 @@ namespace FizzBuzz.StructuralStyle
     {
         public void Start()
         {
+            //ApproachNumber1();
+            ApproachNumber2();
+        }
+
+        private static void ApproachNumber1()
+        {
             for (int i = 0; i < Settings.MaxNum; i++)
             {
                 //Добавляемое условие
@@ -30,6 +36,21 @@ namespace FizzBuzz.StructuralStyle
                 else
                     Console.WriteLine(i);
             }
+        }
+
+        private static void ApproachNumber2()
+        {
+            for (int i = 0; i < Settings.MaxNum; i++)
+                Console.WriteLine
+                (
+                    (i % 3, i % 5) switch
+                    {
+                        (0, 0) => "FizzBuzz",
+                        (0, _) => "Fizz",
+                        (_, 0) => "Buzz",
+                        _ => i.ToString()
+                    }
+                );
         }
     }
 }

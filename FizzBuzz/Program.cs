@@ -12,7 +12,7 @@ namespace FizzBuzz
             var fizzBuzzFunctional = new FizzBuzzFunctional();
             var fizzBuzzStructural = new FizzBuzzStructural();
 
-            fizzBuzzOop.Start();
+            fizzBuzzFunctional.Start();
         }
     }
 }
