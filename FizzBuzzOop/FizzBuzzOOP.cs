@@ -10,36 +10,36 @@ namespace FizzBuzzOop
     {
         #region Постановка основных условий и добавляемого условия
 
-        private static readonly List<ICondition> FizzConditions = new ()
+        private static readonly List<ICondition> FizzConditions = new()
         {
             new DivCondition(3),
             new NotZeroCondition()
         };
 
-        private static readonly List<ICondition> BuzzConditions = new ()
+        private static readonly List<ICondition> BuzzConditions = new()
         {
             new DivCondition(5),
             new NotZeroCondition()
         };
 
-        private static readonly List<ICondition> FizzBuzzConditions = new ()
+        private static readonly List<ICondition> FizzBuzzConditions = new()
         {
             new FizzBuzzStrategy(FizzConditions),
             new FizzBuzzStrategy(BuzzConditions)
         }; // Сделано так в качестве примера приемсвенности стратегий и условий
 
         #endregion
-        
+
         /// <summary>
         ///     Связка условий с результатом
         /// </summary>
-        private static readonly TagRulesCollection Collection = new 
+        private static readonly TagRulesCollection Collection = new
         (
-            new ()
+            new()
             {
-                new (GetTag(nameof(FizzBuzzConditions)), new (FizzBuzzConditions)),
-                new (GetTag(nameof(FizzConditions)), new (FizzConditions)),
-                new (GetTag(nameof(BuzzConditions)), new (BuzzConditions))
+                new(GetTag(nameof(FizzBuzzConditions)), new(FizzBuzzConditions)),
+                new(GetTag(nameof(FizzConditions)), new(FizzConditions)),
+                new(GetTag(nameof(BuzzConditions)), new(BuzzConditions))
             }
         );
 
@@ -50,7 +50,7 @@ namespace FizzBuzzOop
         {
             Console.WriteLine(Collection);
 
-            for (int i = default; i < Settings.MaxNum; i++) 
+            for (int i = default; i < Settings.MaxNum; i++)
                 Console.WriteLine(Collection.Find(i));
         }
 
