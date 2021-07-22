@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.Helper
+﻿namespace FizzBuzz
 {
     public static class Settings
     {

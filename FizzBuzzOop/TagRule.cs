@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.OOP
+﻿namespace FizzBuzzOop
 {
     /// <summary>
     ///     Контейнер связки условий с тегом

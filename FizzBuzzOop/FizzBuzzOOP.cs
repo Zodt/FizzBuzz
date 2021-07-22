@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using FizzBuzz.Helper;
-using FizzBuzz.OOP.Conditions;
+using FizzBuzz;
+using FizzBuzzOop.Conditions;
 
-namespace FizzBuzz.OOP
+namespace FizzBuzzOop
 {
     // ReSharper disable once InconsistentNaming
     public class FizzBuzzOOP

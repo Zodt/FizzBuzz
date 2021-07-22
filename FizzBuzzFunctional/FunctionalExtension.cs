@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace FizzBuzz.FunctionalStyle
+namespace FizzBuzzFunctional
 {
     /// <summary>
     ///     Класс расширений для FizzBuzzFunctional
@@ -13,8 +13,7 @@ namespace FizzBuzz.FunctionalStyle
     {
         public static void WriteLines<T, TU>(this IEnumerable<T> data, Func<T, TU> action)
         {
-            Debug.Assert(data != null, nameof(data) + " != null");
-            List<T>? values = data.ToList();
+            List<T> values = data.ToList();
             foreach (var value in values)
             {
                 Debug.Assert(value != null, nameof(value) + " != null");

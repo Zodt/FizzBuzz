@@ -1,7 +1,7 @@
-﻿using System.Linq;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 
-namespace FizzBuzz.OOP
+namespace FizzBuzzOop
 {
     /// <summary>
     ///     Коллекция контейнеров связки тегов с условиями
@@ -14,8 +14,8 @@ namespace FizzBuzz.OOP
         /// <param name="num">Проверяемое число</param>
         public Tag Find(int num)
         {
-            foreach (var tag in Tags.Where(tag => tag.IsSuccess(num)).ToList())
-                return tag;
+            foreach (var tagRule in Tags.Where(tag => tag.IsSuccess(num)).ToList())
+                return tagRule;
             return Tag.CreateInstance(num);
         }
 

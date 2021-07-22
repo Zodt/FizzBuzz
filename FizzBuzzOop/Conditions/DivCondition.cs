@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.OOP.Conditions
+﻿namespace FizzBuzzOop.Conditions
 {
     /// <summary>
     ///     Условие делимости проверяемого числа по заданным условиям

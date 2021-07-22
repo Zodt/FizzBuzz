@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.OOP.Conditions
+﻿namespace FizzBuzzOop.Conditions
 {
     /// <summary>
     ///     Условие несоответствия проверяемого числа значению по умолчанию

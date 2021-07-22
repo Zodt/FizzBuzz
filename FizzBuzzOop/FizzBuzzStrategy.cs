@@ -1,8 +1,8 @@
-﻿using System.Linq;
-using FizzBuzz.OOP.Conditions;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+using FizzBuzzOop.Conditions;
 
-namespace FizzBuzz.OOP
+namespace FizzBuzzOop
 {
 #nullable enable
     public sealed record FizzBuzzStrategy : ICondition

@@ -1,7 +1,7 @@
 ﻿using System;
-using FizzBuzz.Helper;
+using FizzBuzz;
 
-namespace FizzBuzz.StructuralStyle
+namespace FizzBuzzStructural
 {
     public class FizzBuzzStructural
     {

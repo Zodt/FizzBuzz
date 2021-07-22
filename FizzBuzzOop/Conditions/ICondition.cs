@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.OOP.Conditions
+﻿namespace FizzBuzzOop.Conditions
 {
     public interface ICondition
     {
