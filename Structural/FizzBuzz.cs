@@ -1,9 +1,9 @@
 ﻿using System;
-using FizzBuzz;
+using FizzBuzzSettings;
 
-namespace FizzBuzzStructural
+namespace Structural
 {
-    public class FizzBuzzStructural
+    public class FizzBuzz
     {
         public void Start()
         {
