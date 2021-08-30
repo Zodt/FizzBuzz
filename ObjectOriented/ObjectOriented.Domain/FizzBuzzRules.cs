@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using ObjectOriented.Domain.Conditions;
+using ObjectOriented.Domain.Conditions.Interfaces;
 using ObjectOriented.Domain.Models;
 
 namespace ObjectOriented.Domain

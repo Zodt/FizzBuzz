@@ -1,4 +1,6 @@
-﻿namespace ObjectOriented.Domain.Conditions
+﻿using ObjectOriented.Domain.Conditions.Interfaces;
+
+namespace ObjectOriented.Domain.Conditions
 {
     /// <summary>
     ///     Условие несоответствия проверяемого числа значению по умолчанию

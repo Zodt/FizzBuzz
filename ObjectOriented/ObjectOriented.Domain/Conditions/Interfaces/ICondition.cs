@@ -1,4 +1,4 @@
-﻿namespace ObjectOriented.Domain.Conditions
+﻿namespace ObjectOriented.Domain.Conditions.Interfaces
 {
     internal interface ICondition
     {

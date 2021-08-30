@@ -7,7 +7,7 @@ namespace ObjectOriented.Domain
     public class FizzBuzz
     {
         private readonly List<Tag> _tags;
-        
+
         private FizzBuzz()
         {
             _tags = new List<Tag>();
@@ -22,7 +22,7 @@ namespace ObjectOriented.Domain
             }
             return fizzBuzz;
         }
-        
+
         public void Print()
         {
             Console.WriteLine(FizzBuzzRules.RulesCollection);

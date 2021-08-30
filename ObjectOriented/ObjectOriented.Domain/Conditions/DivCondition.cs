@@ -1,4 +1,6 @@
-﻿namespace ObjectOriented.Domain.Conditions
+﻿using ObjectOriented.Domain.Conditions.Interfaces;
+
+namespace ObjectOriented.Domain.Conditions
 {
     /// <summary>
     ///     Условие делимости проверяемого числа по заданным условиям
