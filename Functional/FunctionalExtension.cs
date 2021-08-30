@@ -1,13 +1,12 @@
-﻿#nullable enable
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace FizzBuzzFunctional
+namespace Functional
 {
     /// <summary>
-    ///     Класс расширений для FizzBuzzFunctional
+    ///     Класс расширений для Functional
     /// </summary>
     internal static class FunctionalExtension
     {

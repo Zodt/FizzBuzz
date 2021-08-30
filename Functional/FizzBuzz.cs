@@ -1,24 +1,24 @@
 ﻿using System;
 using System.Linq;
-using FizzBuzz;
-using FizzBuzzFunctional;
+using FizzBuzzSettings;
+using Functional;
 
-// ReSharper disable CommentTypo
-// ReSharper disable ConvertToLocalFunction
+/* ReSharper disable CommentTypo */
+/* ReSharper disable ConvertToLocalFunction */
 
 #region Условия
 
-Func<int, int, bool> devCondition = (index, number) => index % number == default;                               // Основное условие
-Func<int, int, bool> zeroCondition = (index, _) => index != default;                                            // Дополнительное условие
-Func<int, int, bool>[] fizzBuzzConditions = { zeroCondition, devCondition };                                    // Основной список условий 
+Func<int, int, bool> devCondition = (index, number) => index % number == default;                               /* Основное условие */
+Func<int, int, bool> zeroCondition = (index, _) => index != default;                                            /* Дополнительное условие */
+Func<int, int, bool>[] fizzBuzzConditions = { zeroCondition, devCondition };                                    /* Основной список условий */ 
 
-// Добавление нового тега (демонстация быстрой возможности добавления нового тега)                              
-Func<int, int, bool> sqrtCondition = (index, _) => Math.Abs(Math.Sqrt(index) % 1 - default(int)) < 0.00001F;    // Основное условие проверки числа на наличие корня
-Func<int, int, bool>[] sqrtConditions = { zeroCondition, sqrtCondition };                                       // Список условий для проверки числа на наличие корня
+/* Добавление нового тега (демонстация быстрой возможности добавления нового тега) */                             
+Func<int, int, bool> sqrtCondition = (index, _) => Math.Abs(Math.Sqrt(index) % 1 - default(int)) < 0.00001F;    /* Основное условие проверки числа на наличие корня */
+Func<int, int, bool>[] sqrtConditions = { zeroCondition, sqrtCondition };                                       /* Список условий для проверки числа на наличие корня */
 
-// Добавление нового тега (демонстация быстрой возможности добавления нового тега)
-Func<int, int, bool> parityCondition = (index, _) => devCondition(index, 2);                                    // Основное условие четности числа 
-Func<int, int, bool>[] parityConditions = { zeroCondition, parityCondition };                                   // Список условий для проверки четности числа
+/* Добавление нового тега (демонстация быстрой возможности добавления нового тега) */
+Func<int, int, bool> parityCondition = (index, _) => devCondition(index, 2);                                    /* Основное условие четности числа */ 
+Func<int, int, bool>[] parityConditions = { zeroCondition, parityCondition };                                   /* Список условий для проверки четности числа */
 
 #endregion
 
@@ -36,8 +36,8 @@ Func<int, string?>[] conditionsWithData =
 {
     linkDataWithCondition(3, "Fizz", fizzBuzzConditions),
     linkDataWithCondition(5, "Buzz", fizzBuzzConditions),
-    linkDataWithCondition(default, "Sqrt", sqrtConditions),                                                     // Добавление условий вывода дополнительных тегов
-    linkDataWithCondition(default, "Part", parityConditions)                                                    // Добавление условий вывода дополнительных тегов
+    linkDataWithCondition(default, "Sqrt", sqrtConditions),                                                     /* Добавление условий вывода дополнительных тегов */
+    linkDataWithCondition(default, "Part", parityConditions)                                                    /* Добавление условий вывода дополнительных тегов */
 };
 
 #endregion
