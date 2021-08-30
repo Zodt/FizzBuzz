@@ -25,10 +25,12 @@ Func<int, int, bool>[] parityConditions = { zeroCondition, parityCondition };   
 #region Постановка основных условий и добавляемых условий
 
 Func<int, string, Func<int, int, bool>[]?, Func<int, string?>> linkDataWithCondition =
-    (number, word, conditions) => index => conditions?.All(
-        x => x(index, number)) ?? false
-        ? word
-        : null;
+    (number, word, conditions) => index => conditions switch
+    {
+        { } conditionsList 
+            when conditionsList.All(x => x(index, number)) => word,
+        _ => null
+    };
 
 Func<int, string?>[] conditionsWithData =
 {
