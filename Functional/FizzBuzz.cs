@@ -10,14 +10,14 @@ using Functional;
 
 Func<int, int, bool> devCondition = (index, number) => index % number == default;                               /* Основное условие */
 Func<int, int, bool> zeroCondition = (index, _) => index != default;                                            /* Дополнительное условие */
-Func<int, int, bool>[] fizzBuzzConditions = { zeroCondition, devCondition };                                    /* Основной список условий */ 
+Func<int, int, bool>[] fizzBuzzConditions = { zeroCondition, devCondition };                                    /* Основной список условий */
 
-/* Добавление нового тега (демонстация быстрой возможности добавления нового тега) */                             
+/* Добавление нового тега (демонстация быстрой возможности добавления нового тега) */
 Func<int, int, bool> sqrtCondition = (index, _) => Math.Abs(Math.Sqrt(index) % 1 - default(int)) < 0.00001F;    /* Основное условие проверки числа на наличие корня */
 Func<int, int, bool>[] sqrtConditions = { zeroCondition, sqrtCondition };                                       /* Список условий для проверки числа на наличие корня */
 
 /* Добавление нового тега (демонстация быстрой возможности добавления нового тега) */
-Func<int, int, bool> parityCondition = (index, _) => devCondition(index, 2);                                    /* Основное условие четности числа */ 
+Func<int, int, bool> parityCondition = (index, _) => devCondition(index, 2);                                    /* Основное условие четности числа */
 Func<int, int, bool>[] parityConditions = { zeroCondition, parityCondition };                                   /* Список условий для проверки четности числа */
 
 #endregion
@@ -27,7 +27,7 @@ Func<int, int, bool>[] parityConditions = { zeroCondition, parityCondition };   
 Func<int, string, Func<int, int, bool>[]?, Func<int, string?>> linkDataWithCondition =
     (number, word, conditions) => index => conditions switch
     {
-        { } conditionsList 
+        { } conditionsList
             when conditionsList.All(x => x(index, number)) => word,
         _ => null
     };
