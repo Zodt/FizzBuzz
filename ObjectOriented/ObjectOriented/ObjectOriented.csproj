@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\FizzBuzzSettings\FizzBuzzSettings.csproj" />
+      <ProjectReference Include="..\ObjectOriented.Domain\ObjectOriented.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="ObjectOriented.Domain\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ObjectOriented.Domain\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ObjectOriented.Domain\**" />
+    </ItemGroup>
+
+</Project>

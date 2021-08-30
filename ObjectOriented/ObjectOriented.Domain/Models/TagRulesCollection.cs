@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace FizzBuzzOop
+namespace ObjectOriented.Domain.Models
 {
     /// <summary>
     ///     Коллекция контейнеров связки тегов с условиями
     /// </summary>
-    public sealed record TagRulesCollection(List<TagRule> Tags)
+    internal sealed record TagRulesCollection(List<TagRule> Tags)
     {
         /// <summary>
         ///     Поиск контейнеров, условия которого выполнились

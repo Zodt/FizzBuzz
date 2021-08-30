@@ -1,9 +1,9 @@
-﻿namespace FizzBuzzOop
+﻿namespace ObjectOriented.Domain.Models
 {
     /// <summary>
     ///     Контейнер связки условий с тегом
     /// </summary>
-    public record TagRule(Tag Tag, FizzBuzzStrategy Strategy)
+    internal record TagRule(Tag Tag, FizzBuzzStrategy Strategy)
     {
         /// <summary>
         ///     Проверка выполнения условий

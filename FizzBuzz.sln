@@ -2,11 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{6537944B-8842-4AD7-B39E-F8CBA259E4C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzOop", "FizzBuzzOop\FizzBuzzOop.csproj", "{7DB91AA8-9323-4E3A-96EA-769A6D972C3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOriented.Domain", "ObjectOriented\ObjectOriented.Domain\ObjectOriented.Domain.csproj", "{C6BD26FC-4FCD-4090-964B-99EA9D035615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzFunctional", "FizzBuzzFunctional\FizzBuzzFunctional.csproj", "{EAB4FF59-817B-416A-8D57-3E9F75D0F5F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOriented", "ObjectOriented\ObjectOriented\ObjectOriented.csproj", "{D47E884B-5005-40B6-ADD8-02F35A5F3BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzStructural", "FizzBuzzStructural\FizzBuzzStructural.csproj", "{C17DA584-BD92-49B0-ACC9-AED839EBC3F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{19C113AB-A64E-4DDE-95BA-9F6327A9AF06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

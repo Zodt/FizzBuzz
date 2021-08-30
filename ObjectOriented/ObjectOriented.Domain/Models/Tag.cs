@@ -1,4 +1,4 @@
-﻿namespace FizzBuzzOop
+﻿namespace ObjectOriented.Domain.Models
 {
     /// <summary>
     ///     Контейнер наименования тега

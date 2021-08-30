@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using FizzBuzz;
-using FizzBuzzOop.Conditions;
+﻿using System.Collections.Generic;
+using ObjectOriented.Domain.Conditions;
+using ObjectOriented.Domain.Models;
 
-namespace FizzBuzzOop
+namespace ObjectOriented.Domain
 {
-    // ReSharper disable once InconsistentNaming
-    public class FizzBuzzOOP
+    internal static class FizzBuzzRules
     {
-        #region Постановка основных условий и добавляемого условия
-
         private static readonly List<ICondition> FizzConditions = new()
         {
             new DivCondition(3),
@@ -28,31 +24,18 @@ namespace FizzBuzzOop
             new FizzBuzzStrategy(BuzzConditions)
         }; // Сделано так в качестве примера приемсвенности стратегий и условий
 
-        #endregion
-
         /// <summary>
         ///     Связка условий с результатом
         /// </summary>
-        private static readonly TagRulesCollection Collection = new
+        internal static readonly TagRulesCollection RulesCollection = new
         (
-            new()
+            new List<TagRule>
             {
-                new(GetTag(nameof(FizzBuzzConditions)), new(FizzBuzzConditions)),
-                new(GetTag(nameof(FizzConditions)), new(FizzConditions)),
-                new(GetTag(nameof(BuzzConditions)), new(BuzzConditions))
+                new(GetTag(nameof(FizzBuzzConditions)), new FizzBuzzStrategy(FizzBuzzConditions)),
+                new(GetTag(nameof(FizzConditions)), new FizzBuzzStrategy(FizzConditions)),
+                new(GetTag(nameof(BuzzConditions)), new FizzBuzzStrategy(BuzzConditions))
             }
         );
-
-        /// <summary>
-        ///     Точка входа и вывод результата
-        /// </summary>
-        public void Start()
-        {
-            Console.WriteLine(Collection);
-
-            for (int i = default; i < Settings.MaxNum; i++)
-                Console.WriteLine(Collection.Find(i));
-        }
 
         /// <summary>
         ///     Избавление от строковых значений в коде
@@ -63,7 +46,5 @@ namespace FizzBuzzOop
         {
             return Tag.CreateInstance(conditionsName.Replace("Conditions", ""));
         }
-
-
     }
 }

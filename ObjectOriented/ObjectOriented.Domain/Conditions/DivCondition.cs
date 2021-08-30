@@ -1,9 +1,9 @@
-﻿namespace FizzBuzzOop.Conditions
+﻿namespace ObjectOriented.Domain.Conditions
 {
     /// <summary>
     ///     Условие делимости проверяемого числа по заданным условиям
     /// </summary>
-    public record DivCondition(int Divider) : ICondition
+    internal record DivCondition(int Divider) : ICondition
     {
         public bool IsConditionMet(int num)
         {

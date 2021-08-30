@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using FizzBuzzOop.Conditions;
+using ObjectOriented.Domain.Conditions;
 
-namespace FizzBuzzOop
+namespace ObjectOriented.Domain
 {
-#nullable enable
-    public sealed record FizzBuzzStrategy : ICondition
+    internal sealed record FizzBuzzStrategy : ICondition
     {
         private IEnumerable<ICondition> ConditionsOrStrategies { get; }
         public FizzBuzzStrategy(IEnumerable<ICondition> conditionsOrStrategies) =>

@@ -1,6 +1,6 @@
-﻿namespace FizzBuzzOop.Conditions
+﻿namespace ObjectOriented.Domain.Conditions
 {
-    public interface ICondition
+    internal interface ICondition
     {
         /// <summary>
         ///     Проверка выполнения условий
